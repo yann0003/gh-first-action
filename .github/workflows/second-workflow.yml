@@ -1,0 +1,14 @@
+name: second workflow
+on: workflow_dispatch
+jobs: 
+  first-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      run: |
+        name: Say Hello
+        echo "bonjour"
+        echo "bonsoir"
+      
+
+
+
